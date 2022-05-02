@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de textos</title>
+    <link rel="stylesheet" href="_style/style.css">
+    <link rel="shortcut icon" href="_imagens/6845422.png" type="image/x-icon">
+</head>
+
+<body>
+<div id="interface">
+
+    <header id="cabecalho">
+        <div>
+            <a href="index.html"><img id = "icone" src="_imagens/6845422.png" width="30" height="30" align = "left"></a>
+            <a href="index.html"><h1>&nbsp Decodificador de textos</h1></a>
+        </div>
+    </header>
+
+    <section>
+        <div>
+            <!--Aréa de digitar o texto para criptografar ou descriptografar-->
+            <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Digite seu texto" autofocus></textarea>
+
+            <p>ATENÇÃO: Somente palavras sem acento.</p>
+            <!--Botões de criptografar e descriptografar-->
+            <div id="botoes">
+                <button id="botao1">Criptografar</button>
+                <button id="botao2">Descriptografar</button>
+            </div>
+        </div>
+
+    </section>
+
+    <aside class="bloco-resultado">
+
+        <!--Área na qual aparece o texto criptografado ou descriptografado-->
+        <textarea name="resultado" id="resultado" cols="50" rows="50" readonly></textarea>
+        <!--Imagem e frases que aparecem quando não ainda não digitou nenhum texto-->
+        <div id="img"><img src="_imagens/pngwing.com.png" width="200" height="300" id="img-detetive"></div>
+        <div id="nenhumamensagem">
+            <h3>Nenhuma mensagem <br/>encontrada</h3>
+            <p>Digite um texto que você deseja<br/> criptografar e descriptografar</p>
+        </div>
+
+        <!-- Botão de copiar o texto -->
+        <div id="commensagem">
+            <button id="copy">Copiar</button>
+        </div>
+
+    </aside>
+
+    <footer id="rodape">
+        <!--Informações do rodapé-->
+        <p>Desenvolvido por @thaynaalvesc 
+        <br>
+        <a href="https://www.linkedin.com/in/thaynaalvesc/" target="_blanck"><img src="_imagens/174857.png" width="26" height="26"></a>
+        <a href="https://github.com/thaynaalvesc" target="_blanck"><img src="_imagens/733553.png" width="26" height="26"></a>
+        <br>
+        Um desafio do Oracle Next Education e Alura</p>
+    </footer>
+
+    <script src="_scripts/main.js"></script>
+
+</div>
+</body>
+</html>

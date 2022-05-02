@@ -1,0 +1,372 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 5px;
+    padding: 0;
+    flex-direction: column;
+    background: #F3F5FC;
+}
+
+header#cabecalho {
+    padding: 15px;
+    right: 400px;
+}
+
+header#cabecalho a{
+    text-decoration: none;
+    color: black;
+}
+
+div#interface{
+    position: relative;
+    width: 1320px;
+    height: 640px;
+}
+
+textarea#texto{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 200px;
+    top: 100px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: justify;
+
+    color: #0A3871;
+}
+
+section p{
+    font-size: 10px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    color: gray;
+}
+
+button#botao1{
+    display: block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: static;
+    width: 250px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+
+    position: absolute;
+    top: 430px;
+    left: 200px;
+
+    background: #0A3871;
+    color: white;
+    border-radius: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button#botao1:hover{
+    background: #D8DFE8;
+    color: black;
+    transition: 800ms;
+}
+
+button#botao2{
+    display: block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: static;
+    width: 250px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+
+    position: absolute;
+    top: 430px;
+    left: 500px;
+
+    background: #D8DFE8;
+    color: black;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;  
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button#botao2:hover{
+    background: #0A3871;
+    color: white;
+    transition: 800ms;
+}
+
+div#botoes {
+    display: block;
+    right: 600px;
+}
+
+textarea#resultado {
+    position: absolute;
+    display: block;
+    float: left;
+    width: 400px;
+    height: 500px;
+    left: 900px;
+    top: 40px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0,08);
+    border-radius: 32px;
+    padding: 5px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+div#img{
+    position: absolute;
+    display: block;
+    left: 990px;
+    top: 80px;
+    font-size: 150px;
+}
+
+div#nenhumamensagem{
+    position: absolute;
+    display: block;
+    left: 950px;
+    top: 370px;
+    font-size: 20px;
+    text-align: center;
+}
+
+button#copy {
+    position: absolute;
+    display: none;
+    left: 1060px;
+    top: 450px;
+    height: 60px;
+    width: 110px;
+    
+    background: #D8DFE8;
+    color: black;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button#copy:hover{
+    background: #0A3871;
+    color: white;
+    transition: 800ms;
+}
+
+footer#rodape {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 40px;
+    display: block;
+    top: 500px;
+    color: gray;
+}
+
+footer#rodape p{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    div#interface {
+        width: 758px;
+    }
+
+    img#icone {
+        width: 40px;
+        height: 40px;
+    }
+
+    #cabecalho {
+        font-size: 20px;
+    }
+
+    textarea#texto {
+        left: 104px;
+        font-size: 24px;
+    }
+
+    section p {
+        left: 104px;
+        font-size: 15px;
+    }
+
+    button#botao1 {
+        left: 140px;
+        top: 450px;
+        width: 220px;
+        font-size: 22px;
+    }
+
+    button#botao2 {
+        left: 414px;
+        top: 450px;
+        width: 220px;
+        font-size: 22px;
+    }
+
+    textarea#resultado{
+        left: 104px;
+        top: 550px;
+        width: 602px;
+        height: 311px;
+        font-size: 24px;
+    }
+
+    div#img {
+        left: 470px;
+        top: 560px;
+    }
+
+    img#img-detetive {
+        width: 200px;
+        height: 300px;
+    }
+
+    div#nenhumamensagem {
+        left: 130px;
+        top: 620px;
+        font-size: 21px;
+    }
+
+    button#copy {
+        left: 365px;
+        top: 795px;
+    }
+
+    footer#rodape {
+        top: 850px;
+    }  
+
+    @media screen and (max-width: 375px) {
+        div#interface {
+            width: 365px;
+        }
+
+        img#icone {
+            width: 25px;
+            height: 25px;
+        }
+    
+        #cabecalho {
+            font-size: 13px;
+        }
+
+        textarea#texto {
+            left: 12px;
+            width: 340px;            
+            height: 200px;
+            font-size: 17px;
+        }
+    
+        section p {
+            left: 12px;
+            font-size: 12px;
+            top: 300px;
+        }
+    
+        button#botao1 {
+            left: 12px;
+            top: 334px;
+            width: 150px;
+            height: 50px;
+            font-size: 17px;
+            line-height: 0px;
+        }
+    
+        button#botao2 {
+            left: 180px;
+            top: 334px;
+            width: 150px;
+            height: 50px;
+            font-size: 17px;
+            line-height: 0px;
+        }
+
+        textarea#resultado{
+            left: 12px;
+            top: 401px;
+            width: 340px;
+            height: 311px;
+            font-size: 19px;
+        }
+    
+        div#img {
+            left: 140px;
+            top: 410px;
+        }
+    
+        img#img-detetive {
+            width: 100px;
+            height: 154px;
+        }
+    
+        div#nenhumamensagem {
+            left: 71px;
+            top: 564px;
+            font-size: 17px;
+        }
+    
+        button#copy {
+            left: 137px;
+            top: 640px;
+            font-size: 19px;
+            line-height: 0px;
+        }
+    
+        footer#rodape {
+            top: 710px;
+            width: auto;
+            font-size: 14px;
+        }  
+    }
+}
