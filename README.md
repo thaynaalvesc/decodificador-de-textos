@@ -20,4 +20,4 @@
   <li>A letra "u" é convertida para "ufat"</li></p>
     
 <p>Não devem ser utilizados letras com acentos nem caracteres especiais.</p>
-<p>O codificador possui um botão que copia o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.</p>
+<p>O codificador possui um botão que copia o texto criptografado/descriptografado para a área de transferência, ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.</p>
