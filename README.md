@@ -1,5 +1,5 @@
 <h1 align="center">Decodificador de Textos 🕵🏻‍♀️</h1>
-<p align="center">Esse projeto foi proposto pelo Oracle Next Education em parceria com o Alura</p>
+<p align="center">Esse projeto foi proposto pelo Oracle em parceria com o Alura no curso ONE - Oracle Next Education</p>
 
 <br>
 
